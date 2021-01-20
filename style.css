@@ -1,0 +1,60 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+.counter h2 {
+    font-size: 55px;
+}
+
+.counter h1 {
+    font-size: 80px;
+}
+
+.counter__btns{
+    margin-top: 20px;
+}
+
+.btn{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Concert One', cursive;
+    width: 150px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
